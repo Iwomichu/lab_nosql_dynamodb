@@ -1,5 +1,5 @@
 docker run \
- --network dynamodb_default \
+ --network lab_nosql_dynamodb_default \
  -e AWS_ACCESS_KEY_ID=DUMMYIDEXAMPLE \
  -e AWS_SECRET_ACCESS_KEY=DUMMYEXAMPLEKEY \
  -it amazon/aws-cli \
