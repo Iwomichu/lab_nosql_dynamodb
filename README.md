@@ -2,7 +2,7 @@
 
 This repository consists of a Docker Compose configuration file and collection of simple scripts that show basics of DynamoDB API. For more information see [AWS Documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html). Scripts and Docker Compose services are confirmed to work when used on the Ubuntu launched as a WSL. See [Microsoft Documentation](https://learn.microsoft.com/en-us/windows/wsl/install) for details.
 
-The Docker Compose runs the Localstack container that acts as a DynamoDB service. The other container is run to confirm whether the launch is successful and terminates after that.
+The Docker Compose runs the [Localstack](https://docs.localstack.cloud/getting-started/) container that acts as a DynamoDB service. The other container is run to confirm whether the launch is successful and terminates after that.
 
 ## Prerequisites
 * Docker
