@@ -11,7 +11,7 @@ The Docker Compose runs the [Localstack](https://docs.localstack.cloud/getting-s
 ## Clone this repository
 
 ```sh
-git clone ...
+git clone https://github.com/Iwomichu/lab_nosql_dynamodb.git
 ```
 
 ## Run service
